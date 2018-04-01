@@ -1,0 +1,122 @@
+  .text-center{
+  	text-align: center;
+  }	
+  .small-avatar{
+  	width: 30px;
+  	height: 30px;
+  	border-radius: 50%;
+  	margin-right: 15px;
+  }
+  .atricle-list-item{
+  	border-bottom: 1px solid #ddd;
+  	padding: 15px 0;
+  }
+  .article-author{
+  	color: #409EFF;
+  	font-size: 12px;
+  }
+  .article-time{
+  	font-size: 12px;
+  }
+  .circle-tag{
+  	border-radius: 50%;
+  	margin: 0 15px;
+  	font-size: 12px;
+  	height: 25px;
+  	line-height: 25px;
+  }	
+  .article-desc{
+  	color: #75818b;
+  	text-indent: 14px;
+  	font-size: 12px;
+  	padding: 15px 0;
+  }
+  .article-title{
+  	color: #409EFF;
+  	font-size: 14px;
+  }
+  .head-menu{
+  	position: absolute;
+  	right: 0;
+  	top: 0;
+  	height: 60px;
+  	width: 33%;
+  }	
+  .text-right{
+  	text-align: right;
+  }		
+  .el-header, .el-footer {
+    line-height: 60px;
+    position: relative;
+  }
+  .el-header{
+    background-color: rgba(3,182,3,.5);
+    color: #fff;	
+  }
+  .head-title{
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+    font-weight: 600;
+    font-size: 28px; 
+    text-align: center;   	
+  }
+  .el-footer{
+    background-color: #fff;
+    color: #777;
+    font-size: 12px; 
+    text-align: center; 	
+  }
+  .el-aside {
+    background-color: #D3DCE6;
+    color: #333;
+    text-align: center;
+    line-height: 200px;
+  }
+  
+  .el-main {
+
+  }
+  
+  body > .el-container {
+    margin-bottom: 40px;
+  }
+  
+  .el-container:nth-child(5) .el-aside,
+  .el-container:nth-child(6) .el-aside {
+    line-height: 260px;
+  }
+  
+  .el-container:nth-child(7) .el-aside {
+    line-height: 320px;
+  }
+  .time {
+    font-size: 13px;
+    color: #999;
+  }
+  
+  .bottom {
+    margin-top: 13px;
+    line-height: 12px;
+  }
+
+  .button {
+    padding: 0;
+    float: right;
+  }
+
+  .image {
+    width: 100%;
+    display: block;
+  }
+
+  .clearfix:before,
+  .clearfix:after {
+      display: table;
+      content: "";
+  }
+  
+  .clearfix:after {
+      clear: both
+  } 
+  .article-body{
+  	padding: 30px 15px;
+  }
